@@ -1,0 +1,20 @@
+.MainLayout {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MainLayout_content {
+  display: flex;
+  flex: 1 0 0;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.MainLayout_content_inner {
+  max-width: 1440px;
+  width: 100%;
+}

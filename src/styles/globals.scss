@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+
+  padding: 0;
+  margin: 0;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+  color: #333;
+  font-family: $fontRubik;
+  line-height: 150%;
+
+  @media (max-width: $desktop-l) {
+    font-size: get-vw(16px);
+  }
+
+  @media (max-width: $mobile-s) {
+    font-size: get-vw-ms(16px);
+  }
+}
+
+html {
+  background-color: $bg-color;
+
+  &::-webkit-scrollbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 5px;
+    width: get-vw(10px);
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: get-vw(10px);
+
+    box-shadow: inset 0px 0px get-vw(7px) #ffffff77;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    padding: 5px;
+    background-color: #000;
+    box-shadow: inset 0px 0px get-vw(7px) #fff;
+    border-radius: get-vw(20px);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+button {
+  cursor: pointer;
+}
+
+// p {
+//   margin: 0 0 10px;
+// }
+
+p + p,
+p + ul,
+p + ol {
+  margin: 20px 0 0;
+}
+
+li + li {
+  margin: 10px 0 0;
+}
+
+ul + p,
+ol + p {
+  margin: 20px 0 0;
+}
+
+ul,
+ol {
+  padding-left: 50px;
+}
+
+@media (max-width: 500px) {
+  ul,
+  ol {
+    padding-left: 30px;
+  }
+}
+
+a {
+  outline: none;
+
+  &:not([class]) {
+    color: #cd0030;
+    text-decoration: underline;
+  }
+}
+
+iframe {
+  margin-top: 10px;
+
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 50px;
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.wrapper-pages {
+  /* max-width: 1440px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex: 1 0 0;
+}
+
+/* mouseFollower */
+.mouseFollower {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  mix-blend-mode: difference;
+  position: fixed;
+  z-index: 10000;
+  top: -5px;
+  left: -5px;
+  pointer-events: none;
+}
+
+@media (max-width: 500px) {
+  .wrapper-pages {
+    padding: 0 10px;
+  }
+}

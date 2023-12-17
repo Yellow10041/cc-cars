@@ -1,0 +1,21 @@
+.PageItem {
+  padding: 20px;
+
+  background-color: $half-white;
+  border-radius: 25px;
+
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+
+  & + &,
+  p + &,
+  img + & {
+    margin-top: 20px;
+  }
+}
+
+.PageItem_title {
+  padding-bottom: 20px;
+
+  font-size: 28px;
+  font-weight: 500;
+}

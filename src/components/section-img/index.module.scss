@@ -1,0 +1,39 @@
+.SectionImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 0;
+
+  &.right {
+    .SectionImg_img {
+      order: -1;
+    }
+  }
+
+  @media screen and (max-width: $mobile-s) {
+    flex-direction: column;
+  }
+}
+
+.SectionImg_title {
+  font-size: get-vw(25px);
+  font-weight: 600;
+
+  @media screen and (max-width: $mobile-s) {
+    font-size: get-vw-ms(20px);
+  }
+}
+
+.SectionImg_img {
+  height: 400px;
+  max-width: 50%;
+
+  border-radius: 20px;
+
+  @media screen and (max-width: $mobile-s) {
+    min-height: unset;
+    width: 100%;
+    height: auto;
+  }
+}

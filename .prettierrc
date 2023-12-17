@@ -1,0 +1,23 @@
+{
+  "tabWidth": 2,
+  "semi": false,
+  "bracketSpacing": false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "@/styles/(.*)$",
+    "@/types/(.*)$",
+    "@/providers/(.*)$",
+    "@/pages/(.*)$",
+    "@/widgets/(.*)$",
+    "@/components/(.*)$",
+    "@/assets/(.*)$",
+    "^../(.*)$",
+    "^./(.*)$"
+  ]
+}
