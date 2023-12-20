@@ -7,13 +7,11 @@ import {PageLayout} from "../../layouts"
 import styles from "./index.module.scss"
 import {dataContent} from "./lib/dataContent"
 
-interface IComplexProfessionalExamination {}
+interface IQualificationWorkDp {}
 
-export const ComplexProfessionalExamination: FC<
-  IComplexProfessionalExamination
-> = () => {
+export const QualificationWorkDp: FC<IQualificationWorkDp> = () => {
   return (
-    <PageLayout title="Програма комплексного фахового екзамену">
+    <PageLayout title="Виконання кваліфікаційної роботи у вигляді дипломного проекту">
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}

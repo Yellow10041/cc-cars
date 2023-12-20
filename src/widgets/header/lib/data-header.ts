@@ -57,8 +57,8 @@ export const dataHeader = [
         path: "/methodological-recommendations-for-KP",
       },
       {
-        title: "Програма комплексного фахового екзамену",
-        path: "/complex-professional-examination",
+        title: "Виконання кваліфікаційної роботи у вигнляді ДП",
+        path: "/qualification-work-dp",
       },
       {
         title: "Практики",

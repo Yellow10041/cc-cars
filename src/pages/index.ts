@@ -1,5 +1,4 @@
 import {CertificationTraining} from "./certification-training"
-import {ComplexProfessionalExamination} from "./complex-professional-examination"
 import {CompositionCC} from "./composition-cc"
 import {Contacts} from "./contacts"
 import {EducationalPrograms} from "./educational-and-professional-programs"
@@ -11,6 +10,7 @@ import {OurAchievements} from "./our-achievements"
 import {OurGraduates} from "./our-graduates"
 import {OurStakeholders} from "./our-stakeholders"
 import {Practices} from "./practices"
+import {QualificationWorkDp} from "./qualification-work-dp"
 import {ScientificWork} from "./scientific-work"
 import {Specialty} from "./specialty"
 import {StudentLeisure} from "./student-leisure-time"
@@ -53,8 +53,8 @@ export const pages = [
     title: "Наші",
   },
   {
-    path: "/complex-professional-examination",
-    Component: ComplexProfessionalExamination,
+    path: "/qualification-work-dp",
+    Component: QualificationWorkDp,
     title: "Наші",
   },
   {
