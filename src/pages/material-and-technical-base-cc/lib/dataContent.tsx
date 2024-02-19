@@ -50,6 +50,13 @@ import img_310_21 from "@/assets/material-base/310/21.png"
 import img_310_22 from "@/assets/material-base/310/22.png"
 import img_310_23 from "@/assets/material-base/310/23.png"
 import img_310_24 from "@/assets/material-base/310/24.png"
+import img_310_25 from "@/assets/material-base/310/25.jpg"
+import img_310_26 from "@/assets/material-base/310/26.jpg"
+import img_310_27 from "@/assets/material-base/310/27.jpg"
+import img_310_28 from "@/assets/material-base/310/28.jpg"
+import img_310_29 from "@/assets/material-base/310/29.jpg"
+import img_310_30 from "@/assets/material-base/310/30.jpg"
+import img_310_31 from "@/assets/material-base/310/31.jpg"
 
 const data211 = [
   {
@@ -230,7 +237,7 @@ export const dataContent = [
     ),
   },
   {
-    title: "КАБІНЕТ 310 ",
+    title: "КАБІНЕТ 308 ",
     content: (
       <>
         <p>

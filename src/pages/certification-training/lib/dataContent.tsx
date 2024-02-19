@@ -1,7 +1,14 @@
 import {Img} from "@/components/img"
 
+import img_z_2 from "@/assets/qualification/заверуха/2.png"
 // Заверуха
 import img_z_1 from "@/assets/qualification/заверуха/img_1.jpg"
+// Котик
+import img_k_1 from "@/assets/qualification/котик/1.png"
+import img_k_2 from "@/assets/qualification/котик/2.png"
+import img_k_3 from "@/assets/qualification/котик/3.png"
+import img_k_4 from "@/assets/qualification/котик/4.png"
+import img_k_5 from "@/assets/qualification/котик/5.png"
 // Недошитко
 import img_n_1 from "@/assets/qualification/недошитко/1.png"
 import img_n_2 from "@/assets/qualification/недошитко/2.png"
@@ -55,6 +62,7 @@ export const dataContent = [
           </li>
         </ul>
         <Img src={img_z_1} />
+        <Img src={img_z_2} />
       </>
     ),
   },
@@ -88,6 +96,18 @@ export const dataContent = [
         <Img src={img_n_7} size="small" />
         <Img src={img_n_8} size="small" />
         <Img src={img_n_9} size="small" />
+      </>
+    ),
+  },
+  {
+    title: "Котик Марія Іванівна",
+    content: (
+      <>
+        <Img src={img_k_1} size="small" />
+        <Img src={img_k_2} size="small" />
+        <Img src={img_k_3} size="small" />
+        <Img src={img_k_4} size="small" />
+        <Img src={img_k_5} size="small" />
       </>
     ),
   },

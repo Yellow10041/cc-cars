@@ -330,6 +330,23 @@ export const dataContent = [
             (2013.01).2015 рік.
           </li>
         </ul>
+        <p>Посилання на профілі наукових праць:</p>
+        <ul>
+          <li>
+            <a
+              href="https://scholar.google.com.ua/citations?user=6Ldf7mYAAAAJ&hl=uk"
+              target="_blanc"
+            >
+              https://scholar.google.com.ua/citations?user=6Ldf7mYAAAAJ&hl=uk
+            </a>
+            <a
+              href="http://library.tntu.edu.ua/personaliji/a/k/hnatovych-marija-ivanivna/"
+              target="_blanc"
+            >
+              http://library.tntu.edu.ua/personaliji/a/k/hnatovych-marija-ivanivna/
+            </a>
+          </li>
+        </ul>
       </>
     ),
   },
