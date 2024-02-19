@@ -1,8 +1,8 @@
 import {Img} from "@/components/img"
 
+import img_z_1 from "@/assets/qualification/заверуха/1.jpg"
 import img_z_2 from "@/assets/qualification/заверуха/2.png"
 // Заверуха
-import img_z_1 from "@/assets/qualification/заверуха/img_1.jpg"
 // Котик
 import img_k_1 from "@/assets/qualification/котик/1.png"
 import img_k_2 from "@/assets/qualification/котик/2.png"
