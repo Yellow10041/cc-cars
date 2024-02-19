@@ -111,9 +111,6 @@ const data310 = [
     img: img_310_8,
   },
   {
-    img: img_310_10,
-  },
-  {
     title:
       "Стенд для дослідження робочих параметрів і характеристик скло підіймача та центрального замка автомобільної дверки",
     img: img_310_11,
@@ -249,6 +246,14 @@ export const dataContent = [
         <Img src={img_310_4} size="small" />
         <Img src={img_310_5} size="small" />
         <Img src={img_310_6} size="small" />
+        <Img src={img_310_10} size="small" />
+        <Img src={img_310_25} size="small" />
+        <Img src={img_310_26} size="small" />
+        <Img src={img_310_27} size="small" />
+        <Img src={img_310_28} size="small" />
+        <Img src={img_310_29} size="small" />
+        <Img src={img_310_30} size="small" />
+        <Img src={img_310_31} size="small" />
         {data310.map((e, i) => (
           <SectionImg {...e} index={i} key={i} />
         ))}

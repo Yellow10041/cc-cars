@@ -1,8 +1,14 @@
 import {Img} from "@/components/img"
 
+// Заверуха
 import img_z_1 from "@/assets/qualification/заверуха/1.jpg"
 import img_z_2 from "@/assets/qualification/заверуха/2.png"
-// Заверуха
+import img_z_3 from "@/assets/qualification/заверуха/3.png"
+import img_z_4 from "@/assets/qualification/заверуха/4.png"
+import img_z_5 from "@/assets/qualification/заверуха/5.png"
+import img_z_6 from "@/assets/qualification/заверуха/6.png"
+import img_z_7 from "@/assets/qualification/заверуха/7.png"
+import img_z_8 from "@/assets/qualification/заверуха/8.png"
 // Котик
 import img_k_1 from "@/assets/qualification/котик/1.png"
 import img_k_2 from "@/assets/qualification/котик/2.png"
@@ -63,6 +69,12 @@ export const dataContent = [
         </ul>
         <Img src={img_z_1} />
         <Img src={img_z_2} />
+        <Img src={img_z_3} />
+        <Img src={img_z_4} />
+        <Img src={img_z_5} />
+        <Img src={img_z_6} />
+        <Img src={img_z_7} />
+        <Img src={img_z_8} />
       </>
     ),
   },
